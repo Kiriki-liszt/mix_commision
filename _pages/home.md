@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-hidden: true
+hidden: false
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
@@ -16,7 +16,7 @@ feature_row:
     alt: "customizable"
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "//about/"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
