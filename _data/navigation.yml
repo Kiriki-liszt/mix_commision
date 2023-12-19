@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
+  - title: "knowledge-base"
+    url: /knowledge-base/
   - title: "작업기"
   - title: "안내사항"
   - title: "의뢰하기"
