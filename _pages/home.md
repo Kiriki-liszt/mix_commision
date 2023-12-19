@@ -9,8 +9,7 @@ header:
   actions:
     - label: "<i class='fas fa-download'></i> 의뢰하기"
       url: "/about/"
-excerpt: >
-  믹스 커미션을 시작하기<br />
+excerpt: "여러분의 노래를 믹싱으로 남겨보세요"
 knowledge-base_feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
