@@ -6,30 +6,30 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fas fa-download'></i> 의뢰하기"
       url: "/about/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+  믹스 커미션을 시작하기<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    title: "녹음하는 방법"
+    excerpt: "커미션을 의뢰하기 위해 녹음하는 방법을 알아보자"
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    title: "파일 보내기"
+    excerpt: "녹음 후 알맞게 파일을 보내는 방법을 알아보자"
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
     alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    title: "의뢰하는 방법"
+    excerpt: "믹스 진행을 위해 필요한 의사소통 방법을 알아보자"
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
