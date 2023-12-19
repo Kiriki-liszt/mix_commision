@@ -19,7 +19,7 @@ last_modified_at: 2022-05-27T11:59:26-04:00
 믹싱, 레코딩, 라이브 PA를 주로 하고 오디오 플러그인도 개발합니다.  
 최선을 다하겠습니다!  
 
-### Setup  
+## Setup  
 
 모니터링 장비
 :   Yamaha HS5 w/ Harman Subwoofer, HD600  
