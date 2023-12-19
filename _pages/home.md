@@ -6,9 +6,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> 의뢰하기"
-      url: "/about/"
 excerpt: "여러분의 노래를 믹싱으로 남겨보세요"
 knowledge-base_feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
