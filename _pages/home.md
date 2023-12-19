@@ -43,6 +43,6 @@ portfolio_feature_row:
     btn_label: "보러가기"
 ---
 
-{% include feature_row id="portfolio_feature_row" type="left" %}
+{% include feature_row id="portfolio_feature_row" %}
 
 {% include feature_row id="knowledge-base_feature_row" %}
