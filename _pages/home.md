@@ -6,7 +6,15 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/home-page-feature.jpg
+  actions:
+    - label: "의뢰하기"
+      url: "/commision/"
 excerpt: "여러분의 노래를 믹싱으로 남겨보세요"
+intro: 
+  overlay_color: "#000"
+    overlay_filter: "0.5"
+    overlay_image: /assets/images/home-page-feature.jpg
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 knowledge-base_feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
