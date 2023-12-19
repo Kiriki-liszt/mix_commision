@@ -16,7 +16,7 @@ knowledge-base_feature_row:
     alt: "customizable"
     title: "녹음하는 방법"
     excerpt: "커미션을 의뢰하기 위해 녹음하는 방법을 알아보자"
-    url: "/how-to-record/"
+    url: "/knowledge-base/how-to-record/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
@@ -34,7 +34,7 @@ knowledge-base_feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more" 
 portfolio_feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "customizable"
     title: "Portfolio"
     excerpt: "작업한 믹스들입니다"
