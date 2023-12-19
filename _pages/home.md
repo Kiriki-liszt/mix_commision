@@ -37,8 +37,18 @@ portfolio_feature_row:
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "보러가기"
+commision_feature_row:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "customizable"
+    title: "Commision"
+    excerpt: "믹싱 의뢰하기"
+    url: "/commision/"
+    btn_class: "btn--primary"
+    btn_label: "이동하기"
 ---
 
-{% include feature_row id="portfolio_feature_row" type="left" %}
+{% include feature_row id="commision_feature_row" type="left" %}
+
+{% include feature_row id="portfolio_feature_row" type="right" %}
 
 {% include feature_row id="knowledge-base_feature_row" %}
