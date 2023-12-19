@@ -4,7 +4,7 @@ permalink: /
 hidden: false
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/_home-page-feature.jpg
+  overlay_image: /assets/images/home-page-feature.jpg
   actions:
     - label: "<i class='fas fa-download'></i> 의뢰하기"
       url: "/about/"
