@@ -4,11 +4,8 @@ permalink: /
 hidden: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.6"
   overlay_image: /assets/images/home-page-feature.jpg
-  actions:
-    - label: "의뢰하기"
-      url: "/commision/"
 excerpt: "여러분의 노래를 믹싱으로 남겨보세요"
 knowledge-base_feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
