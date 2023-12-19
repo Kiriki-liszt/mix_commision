@@ -1,17 +1,10 @@
 ---
-title: "믹스 커미션을 위한 보컬 녹음하기"
-excerpt: 
-header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+title: "믹스 커미션을 위한 보컬 녹음"
+excerpt: "커미션을 맡길 때 보컬을 어떻게 녹음해야 할까"
 ---
 
-출력시 MR과 녹음본의 파일 길이 맞추기  
 트랙 정리  
 테이크 쌓기  
 더블링  
 화음  
-출력시 플러그인은 어디까지 끄는가 - 믹스 엔지니어와 프로듀서는 다르다.  
-즉, 색감 = 성향 = 톤 을 만드는 애들과 음악적인 의도를 가지는 공간계 등은 남기고 나머지는 다 뺀다.  
-아예 Dry하게 다 뺀 버전과 어느정도 남긴 버전 두개를 보내주는게 베스트
-믹스 레퍼런스 중요  
+피크 드지 않게 녹음 게인 맞추기  
