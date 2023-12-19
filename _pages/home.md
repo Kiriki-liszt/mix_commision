@@ -37,7 +37,7 @@ portfolio_feature_row:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "customizable"
     title: "Portfolio"
-    excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+    excerpt: "믹스 작업물들과 제작한 플러그인들"
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "보러가기"
