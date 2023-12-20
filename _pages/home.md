@@ -47,35 +47,6 @@ knowledge-base_feature_row:
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more" 
-intro_feature_row:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "customizable"
-    title: "Commision"
-    excerpt: "믹싱 의뢰하기"
-    url: "/commision/"
-    btn_class: "btn--primary"
-    btn_label: "이동하기"
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "customizable"
-    title: "Portfolio"
-    excerpt: "믹스 작업물들과 제작한 플러그인들"
-    url: "/portfolio/"
-    btn_class: "btn--primary"
-    btn_label: "보러가기"
 ---
 
-{% include feature_row id="intro_feature_row" %}
-
 {% include feature_row id="knowledge-base_feature_row" %}
-
-<div class="page__hero--overlay" style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/mix_commision/assets/images/home-page-feature.jpg');">
-  <div class="wrapper">
-    <h1 id="page-title" class="page__title" itemprop="headline">믹스 커미션
-    </h1>
-    <p class="page__lead">여러분의 노래를 믹싱으로 남겨보세요
-    </p>
-    <p>
-      <a href="/mix_commision/commision/" class="btn btn--light-outline btn--large">의뢰하기</a>
-    </p>
-  </div>
-</div>
