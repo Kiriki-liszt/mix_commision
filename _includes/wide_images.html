@@ -2,10 +2,11 @@
 
   {% for w in page.wide_image %}
 
-  <div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
-              style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
-            >
+<div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
+  style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
+>
   </div>
+  <h2>sss</h2>
     {% capture wide_img_path %}{{ page.header.wide_image | relative_url }}{% endcapture %}
 
     {% if w.overlay_filter contains "gradient" %}
@@ -17,9 +18,9 @@
       {% capture overlay_filter %}rgba(0, 0, 0, {{ w.overlay_filter }}){% endcapture %}
       {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
     {% endif %}
-    <div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
-    style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
-  >
+<div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
+style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
+>
 </div>
 
     <div class="wide__item{% if include.type %}--{{ include.type }}{% endif %}">
