@@ -1,6 +1,6 @@
 {% assign wide_images = page.wide_images %}
 
-<div class="feature__wrapper text-center">
+<div class="feature__wrapper">
 
   {% for w in wide_images %}
 
@@ -19,7 +19,7 @@
     <div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
       style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ wide_img_path }}');{% endif %} margin-bottom: auto;"
     >
-      <div class="wrapper">
+      <div class="wrapper" style="display: flex; flex-direction: column; align-items: center;">
         <h1 id="page-title" class="page__title text-center" itemprop="headline">
           {{ w.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         </h1>
