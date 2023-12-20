@@ -1,13 +1,19 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
 <div class="wdie__wrapper">
 
-  {% for w in page.wide_image %}
+  {% for w in feature_row %}
 
 <div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
   style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
 >
   </div>
   <h2>sss</h2>
-    {% capture wide_img_path %}{{ page.header.wide_image | relative_url }}{% endcapture %}
+    {% capture wide_img_path %}{{ w.overlay_image | relative_url }}{% endcapture %}
 
     {% if w.overlay_filter contains "gradient" %}
       {% capture overlay_filter %}{{ w.overlay_filter }}{% endcapture %}
