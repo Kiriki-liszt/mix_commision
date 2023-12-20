@@ -1,14 +1,9 @@
 {% assign wide_images = page.wide_images %}
 
 <div class="wdie__wrapper">
-  <h2>sss_before</h2>
+
   {% for w in wide_images %}
-  <h2>sss_after</h2>
-<div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
-  style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
->
-  </div>
-  <h2>sss</h2>
+
     {% capture wide_img_path %}{{ w.overlay_image | relative_url }}{% endcapture %}
 
     {% if w.overlay_filter contains "gradient" %}
@@ -20,17 +15,12 @@
       {% capture overlay_filter %}rgba(0, 0, 0, {{ w.overlay_filter }}){% endcapture %}
       {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
     {% endif %}
-<div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
-style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
->
-</div>
 
     <div class="wide__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
-        {% if w.image_path %}
           <div class="archive__item-teaser">
             <div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
-              style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
+              style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ wide_img_path }}');{% endif %}"
             >
               <div class="archive__item-body">
                 {% if w.title %}
@@ -49,7 +39,6 @@ style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: '
               </div>
             </div>
           </div>
-        {% endif %}
       </div>
     </div>
   {% endfor %}
