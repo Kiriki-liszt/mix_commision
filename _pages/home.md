@@ -6,7 +6,8 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.6"
   overlay_image: /assets/images/home-page-feature.jpg
-excerpt: "안녕하세요! Aris입니다. 여러분의 노래를 멋지게 남겨보세요 =)"
+excerpt: >
+  안녕하세요! Aris입니다.</p><p> 여러분의 노래를 멋지게 남겨보세요 =)</p><br />
 wide_images:
   - overlay_color: "#000"
     overlay_filter: "0.6"
