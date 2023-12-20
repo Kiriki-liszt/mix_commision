@@ -16,31 +16,17 @@
       {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
     {% endif %}
 
-    <div class="wide__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">
-          <div class="archive__item-teaser">
-            <div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
-              style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ wide_img_path }}');{% endif %}"
-            >
-              <div class="archive__item-body">
-                {% if w.title %}
-                  <h2 class="archive__item-title">{{ w.title }}</h2>
-                {% endif %}
-      
-                {% if w.excerpt %}
-                  <div class="archive__item-excerpt">
-                    {{ w.excerpt | markdownify }}
-                  </div>
-                {% endif %}
-      
-                {% if w.url %}
-                  <p><a href="{{ w.url | relative_url }}" class="btn {{ w.btn_class }}">{{ w.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-                {% endif %}
-              </div>
-            </div>
-          </div>
+    <div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
+      style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ wide_img_path }}');{% endif %} margin-bottom: auto;"
+    >
+      <div class="wrapper">
+        <h1 id="page-title" class="page__title" itemprop="headline">
+          {{ w.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        </h1>
+        <p class="page__lead">{{ w.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+          <p>
+            <a href="{{ w.url | relative_url }}" class="btn btn--light-outline btn--large">{{ w.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
       </div>
     </div>
   {% endfor %}
-
 </div>
