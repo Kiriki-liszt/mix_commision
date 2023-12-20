@@ -1,0 +1,46 @@
+<div class="wdie__wrapper">
+
+  {% for w in page.wide_image %}
+  
+    {% capture wide_img_path %}{{ page.header.wide_image | relative_url }}{% endcapture %}
+
+    {% if page.wide_image.overlay_filter contains "gradient" %}
+      {% capture overlay_filter %}{{ page.wide_image.overlay_filter }}{% endcapture %}
+    {% elsif page.wide_image.overlay_filter contains "rgba" %}
+      {% capture overlay_filter %}{{ page.wide_image.overlay_filter }}{% endcapture %}
+      {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+    {% elsif page.wide_image.overlay_filter %}
+      {% capture overlay_filter %}rgba(0, 0, 0, {{ page.wide_image.overlay_filter }}){% endcapture %}
+      {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+    {% endif %}
+
+    <div class="wide__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+        {% if w.image_path %}
+          <div class="archive__item-teaser">
+            <div class="page__hero{% if w.overlay_color or w.overlay_image %}--overlay{% endif %}"
+              style="{% if w.overlay_color %}background-color: {{ w.overlay_color | default: 'transparent' }};{% endif %} {% if w.overlay_image %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ w.overlay_image | relative_url }}');{% endif %}"
+            >
+              <div class="archive__item-body">
+                {% if w.title %}
+                  <h2 class="archive__item-title">{{ w.title }}</h2>
+                {% endif %}
+      
+                {% if w.excerpt %}
+                  <div class="archive__item-excerpt">
+                    {{ w.excerpt | markdownify }}
+                  </div>
+                {% endif %}
+      
+                {% if w.url %}
+                  <p><a href="{{ w.url | relative_url }}" class="btn {{ w.btn_class }}">{{ w.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
