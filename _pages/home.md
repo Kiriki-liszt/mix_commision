@@ -11,7 +11,7 @@ excerpt: >
 wide_images:
   - overlay_color: "#000"
     overlay_filter: "0.6"
-    overlay_image: /assets/images/home-page-commision.jpg
+    overlay_image: /assets/images/home-page-commision.png
     title: "신청하기"
     excerpt: "믹스 커미션 신청 페이지"
     url: "/knowledge-base/how-to-record/"
