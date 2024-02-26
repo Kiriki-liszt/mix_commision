@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "knowledge-base"
+  - title: "읽을거리"
     url: /knowledge-base/
   - title: "작업기"
   - title: "안내사항"
