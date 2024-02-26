@@ -22,7 +22,7 @@ wide_images:
     overlay_image: /assets/images/mm-responsive-feature.png
     title: "Portfolio"
     excerpt: "믹스 작업물들과 제작한 플러그인들"
-    url: "/about/"
+    url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "보러가기"
 knowledge-base_feature_row:
