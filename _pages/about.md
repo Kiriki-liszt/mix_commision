@@ -22,7 +22,8 @@ last_modified_at: 2022-05-27T11:59:26-04:00
 ## Setup  
 
 모니터링 장비
-:   Yamaha HS5 w/ Harman Subwoofer, HD600  
+:   Yamaha HS5
+:   HD600
 
 오디오 인터페이스
 :   Clarett 2Pre
