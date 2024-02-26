@@ -5,8 +5,11 @@ main:
   - title: "읽을거리"
     url: /knowledge-base/
   - title: "작업기"
+    url: /journal/
   - title: "안내사항"
+    url: /readme/
   - title: "의뢰하기"
+    url: /knowledge-base/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
