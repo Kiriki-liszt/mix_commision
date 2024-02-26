@@ -216,7 +216,9 @@ collections:
   knowledge-base:
     output: true
     permalink: /:collection/:path/
-
+  journal:
+    output: true
+    permalink: /:collection/:path/
 
 # Sass/SCSS
 sass:
