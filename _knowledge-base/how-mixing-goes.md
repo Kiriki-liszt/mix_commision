@@ -9,9 +9,6 @@ classes: wide
 공간계, 보컬버스, 믹스버스 템플릿  
 기본 보컬체인 - C4, Pultec EQ, maag EQ4, LA-2A, DeEsser, saturation(2254e, inflator, decapitator, studer A800, ...)  
 
-
-D_MIX ( @D_MIXing )입니다!
-
 이번은 「노래해 본 것의 MIX(믹스)」에 대해서, 일반적인 MIX의 차이와 아울러 해설해 갑니다.
 
 『MIX는 무슨 짓을 하는 거야? 』
