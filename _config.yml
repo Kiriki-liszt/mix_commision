@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "331 Studio"
+title                    : "331 Mixing"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kiriki-Liszt Aris" 
@@ -105,7 +105,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kiriki-Liszt Aris"
+  name             : "yg331"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "South Korea"
