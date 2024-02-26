@@ -32,13 +32,24 @@ DAW
 :   Cubase 12 pro  
 
 Vocal Editors
-:   Celemony Melodyne, Synchro Arts VocALign
+:   Celemony Melodyne
+:   Synchro Arts VocALign
 
 VST plugins
-:   Waves, UAD spark, iZotope, Sonnox, FabFilter, Plugin Alliance(Bettermaker, Black Box HG-2, Brainworx, Maag, Shadowhills, SPL), SoundToys, SSL Native, TDR, Wavesfactory  
-
-Reverbs
-:   Exponential Audio Symphony, LiquidSonics Seventh Heaven, Sonnox Oxford Reverb, Native Instruments RAUM, ReLab LX480, Valhallah DSP reverbs  
+:   Tokyo Dawn Labs
+:   Sonnox
+:   UAD spark
+:   FabFilter
+:   SoundToys
+:   iZotope
+:   Waves
+:   Plugin Alliance
+:   SSL Native
+:   Wavesfactory  
+:   Exponential Audio
+:   LiquidSonics
+:   ReLab
+:   Valhallah DSP
 
 더 참고하기 - <https://shated-studio.com/>  
 
