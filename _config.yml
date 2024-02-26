@@ -315,3 +315,11 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _journal
+  - scope:
+      path: ""
+      type: journal
+    values:
+      layout: single
+      author_profile: false
+      share: true
