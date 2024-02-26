@@ -2,6 +2,7 @@
 permalink: /about/
 title: "About"
 excerpt: "저에 대한 소개입니다"
+classes: wide
 last_modified_at: 2022-05-27T11:59:26-04:00
 ---
 
