@@ -5,7 +5,7 @@ hidden: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-  overlay_image: /assets/images/home-page-feature.jpg
+  overlay_image: /assets/images/home-page-feature.png
 excerpt: >
   안녕하세요! Aris입니다.<br />여러분의 노래를 멋지게 남겨보세요 =)<br />
 wide_images:
