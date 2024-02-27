@@ -2,6 +2,8 @@
 title: "믹스 커미션을 위한 파일 만들기"
 excerpt: "녹음본을 전달하기 위해 어떻게 파일로 만들어야 할까"
 classes: wide
+header:
+  teaser: /assets/images/mm-customizable-feature.png
 ---
 
 출력시 플러그인은 어디까지 끄는가 - 믹스 엔지니어와 프로듀서는 다르다.  
