@@ -2,6 +2,8 @@
 title: "일반적인 믹스의 진행"
 excerpt: "내가 부른 노래가 어떻게 완성되는가"
 classes: wide
+header:
+  teaser: home-page-feature.png
 ---
 
 보컬 전처리 - 노이즈 심할시 노이즈 제거, 립노이즈, 과한 숨소리  
