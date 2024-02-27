@@ -3,7 +3,7 @@ title: 읽을거리
 layout: collection
 permalink: /knowledge-base/
 collection: knowledge-base
-entries_layout: grid
+entries_layout: list
 classes: wide
 ---
 
