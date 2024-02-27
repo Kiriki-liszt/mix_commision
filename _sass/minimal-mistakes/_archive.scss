@@ -99,7 +99,8 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
-
+  max-width: 50%;
+  width: 15em;
   img {
     width: 100%;
   }
