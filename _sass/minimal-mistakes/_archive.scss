@@ -38,6 +38,7 @@
   flex-direction: column;
   justify-content: flex-start;
   margin: 0.5em;
+  width: calc(100% - (8em * 2160/1440));
 }
 
 .archive__subtitle {
@@ -99,7 +100,7 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
-  max-width: 50%;
+  width: calc(8em * 2160/1440);
   height: 8em;
   img {
     height: 100%;
