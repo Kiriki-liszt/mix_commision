@@ -41,5 +41,3 @@ VST plugins
 :   LiquidSonics
 :   ReLab
 :   Valhallah DSP
-
-더 참고하기 - <https://shated-studio.com/>  

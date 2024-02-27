@@ -253,3 +253,5 @@ KING_마스터링 후
 Shated Studio에서도 MIX 의뢰를 받고 있으므로, 필요할 때는 부담없이 문의해 주십시오!
 
 그럼 또!  
+
+더 참고하기 - <https://shated-studio.com/>  
