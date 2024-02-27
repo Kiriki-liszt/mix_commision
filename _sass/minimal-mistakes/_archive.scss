@@ -20,6 +20,8 @@
 
 .archive__item {
   position: relative;
+  display: flex;
+  padding: 0.5em;
 
   a {
     position: relative;
@@ -29,6 +31,13 @@
   a[rel="permalink"] {
     position: static;
   }
+}
+
+.archive__item-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0.5em;
 }
 
 .archive__subtitle {
@@ -44,6 +53,7 @@
 }
 
 .archive__item-title {
+  margin-top: 0;
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
   line-height: initial;
