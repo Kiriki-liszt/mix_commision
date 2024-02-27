@@ -14,7 +14,7 @@ wide_images:
     overlay_image: /assets/images/home-page-commision.png
     title: "신청하기"
     excerpt: "믹스 커미션 신청 페이지"
-    url: "/knowledge-base/how-to-record/"
+    url: "/commision-request/"
     btn_class: "btn--primary"
     btn_label: "이동하기"
   - overlay_color: "#000"
